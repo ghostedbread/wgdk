@@ -12,4 +12,4 @@ wgdk.js (Web Game Development Kit.js) is a Javascript library that makes it easi
  ```
  ```js
  let WGDKnode = require('wgdk-js/wgdknode-js') // uses the node version, coming very very soon. uses express.
- // [insert above code here :/]
+ // [insert above code example here :/]
