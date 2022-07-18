@@ -1,6 +1,5 @@
-# wgdk.js
-wgdk.js (Web Game Development Kit.js) is a Javascript library that makes it easier to make web games, it is currently in development.
-
+# WGDK
+WGDK (Web Game Development Kit, previously wgdk.js) is a Library in JS to make it easier to make web games.
 # Examples
 ```js
  let WGDK = require('wgdk-js')
