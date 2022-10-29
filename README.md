@@ -14,10 +14,11 @@ WGDK (Web Game Development Kit, previously wgdk.js) is a Library in Javascript t
   yspeed += 0.25
   sprite.pos = new Vector2(xpos, yspeed);
  }, 500)
- onKeyPress(
-   { "a", function () {xpos+=movingspeed} },
-   { "d", function () {xpos-=movingspeed} },
-   { "shift", function () {movingspeed*=2} }
+ onKeyPress({
+    { "a", function () {xpos+=movingspeed} },
+    { "d", function () {xpos-=movingspeed} },
+    { "shift", function () {movingspeed*=2} }
+   }
   )
  ```
  ### 3D coming soon?
