@@ -18,8 +18,8 @@ WGDK (Web Game Development Kit, previously wgdk.js) is a Library in Javascript t
     { key: "a", action: function () {xpos+=movingspeed} },
     { key: "d", action: function () {xpos-=movingspeed} },
     { key: "shift", action: function () {movingspeed*=2} }
-   }
-  )
+  })
+ 
  ```
  ### 3D coming soon?
 <b><i>yesn't</i></b>
