@@ -1,15 +1,23 @@
 # WGDK
-WGDK (Web Game Development Kit, previously wgdk.js) is a Library in JS to make it easier to make web games.
-(can also be used on node very very soon, as noted by the last example)
-# Examples
+WGDK (Web Game Development Kit, previously wgdk.js) is a Library in Javascript to make it easier to make web games.
+
+# Example
 ```js
- let WGDK = require('wgdk-js')
- WGDK.Initialize() // Assuming the wgdk.json file exists and has valid properties.
- window.onload = () => {
-      WGDK.WGDKDisplay.square(100,50,-50,0,WGDK.WGDKPhysics.Collision("default"),"black")
-      WGDK.WGDKDisplay.square(10,10,0,0,WGDK.WGDKPhysics.PlayerPhysics(),"red","player","WASDorarrow")
- }
+ // import { functions } ( OR * ) from WGDK or cdn
+ let sprite = sprite("test.png");
+ let xpos = 0;
+ let yspeed = 0;
+ let movingspeed = 1
+ sprite.pos = new Vector2(0,0);
+ setInterval(function () {
+  yspeed += 0.25
+  sprite.pos = new Vector2(xpos, yspeed);
+ }, 500)
+ onKeyPress(
+   { "a", function () {xpos+=movingspeed} },
+   { "d", function () {xpos-=movingspeed} },
+   { "shift", function () {movingspeed*=2} }
+  )
  ```
- ```js
- let WGDKnode = require('wgdk-js/wgdknode-js') // uses the node version, coming very very soon. uses express.
- // [insert above code example here :/]
+ ### 3D coming soon?
+<b><i>yesn't</i></b>
