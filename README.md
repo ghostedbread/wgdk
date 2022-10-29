@@ -4,6 +4,7 @@ WGDK (Web Game Development Kit, previously wgdk.js) is a Library in Javascript t
 # Example
 ```js
  // import { functions } ( OR * ) from WGDK or cdn
+ // basic movement using WGDK
  let sprite = sprite("test.png");
  let xpos = 0;
  let yspeed = 0;
