@@ -54,7 +54,6 @@ function getmouseposincanvas(canvas) {
     }
 
     function cnvs_clearCoordinates() {
-        document.getElementById("xycoordinates").innerHTML = "";
         returnedx = "";
         returnedy = "";
     }
